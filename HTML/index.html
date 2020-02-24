@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style> 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}   
+</style>
+    
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+
+    <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="observations.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Observations</a>
+    <a href="interview.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interview</a>
+    <a href="litreview.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Literature Review</a>
+    <a href="map.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Map</a>
+    </div>
+
+  <!-- Navigation Bar on Small Screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"> 
+    <a href="observations.html" class="w3-bar-item w3-button w3-padding-large">Observations</a>
+    <a href="interview.html" class="w3-bar-item w3-button w3-padding-large">Interview</a>
+    <a href="litreview.html" class="w3-bar-item w3-button w3-padding-large">Literature Review</a>
+    <a href="map.html" class="w3-bar-item w3-button w3-padding-large">Map</a>
+    </div>
+    
+</div>
+
+    
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Encouraging Student Utility</h1>
+<a href="https://www.lib.ncsu.edu/" class="w3-button w3-black w3-xlarge">D.H. Hill Library</a>
+</header>
+
+    
+<!--Synopsis-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+    
+      <h1>Synopsis</h1>
+<!--Synopsis Subheading Paragraph-->
+      <h5 class="w3-padding-32">We observed and interviewed students who frequent D.H. Hill library to discover the ways they use the library’s resources and spaces. We find out that both students typically lead busy, studious lives as students and will frequent the library. During observations at the location, we find this to be typical behavior of the users there.</h5>
+<!-- Synopsis Body Paragraph-->
+    <p class="w3-text-grey"> 
+We found that a student’s intentions for coming to the library, or what they are trying to achieve during their visit, dictates whether or not they come individually or as a group and how they use the space. Many other users seemed to struggle with finding spaces that suited their needs. Other information gained in these interviews and observations suggests that only a few of the resources provided in the library are known of and used (printing, technology loan, study space reservations.) 
+A survey we conducted shows that the users are not limited to students, but also professors, staff, and researchers. The main points that came up in the survey was that it was difficult to find spaces that worked, the appearance could be updated, and a new wayfinding system would be handy.
+    </p>   
+    </div>
+</div>
+
+    
+<!--Footer--> 
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Kali Peters - GD 202 Townscend Sec 01 - Spring 2020</h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style> 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+    
+    
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+    <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="observations.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Observations</a>
+    <a href="interview.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interview</a>
+    <a href="litreview.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Literature Review</a>
+    <a href="map.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Map</a>
+    </div>
+
+  <!-- Navigation Bar on Small Screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"> 
+    <a href="observations.html" class="w3-bar-item w3-button w3-padding-large">Observations</a>
+    <a href="interview.html" class="w3-bar-item w3-button w3-padding-large">Interview</a>
+    <a href="litreview.html" class="w3-bar-item w3-button w3-padding-large">Literature Review</a>
+    <a href="map.html" class="w3-bar-item w3-button w3-padding-large">Map</a>  
+    </div> 
+</div>
+
+    
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Encouraging Student Utility</h1>
+  <p class="w3-xlarge">D.H. Hill Library</p>
+</header>
+
+    
+<!-- Literature Review -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+    
+      <h1>Literature Review</h1>
+<!--Lit Review Subheading Paragraph-->
+      <h5 class="w3-padding-32">This study aims to explore some of the different variables that influence whether or not people take advantage of the library resources. Students will be analyzed as well as their study habits to assess similarities and differences in how people use the library. The study seeks to answer the research question, How does the lack of knowledge affect people’s inclination to use library resources?</h5>
+        
+<!-- Lit Review Body Paragraph-->
+    <p class="w3-text-grey"> The goal is to analyze the demographics of library patrons and determine what the best methodologies are to encourage student involvement. Participants included range from individuals, pairs, groups, students, professors, and more. Why is access and knowledge of these library resources important? Why is it important to promote and encourage student involvement in the library? According to Miller, during the beginning stages of a student’s research, students were not as likely to consult with librarians but rather faculty members and their peers. This may be because some do not perceive librarians as knowledgeable about a lot of student’s research topics or questions.</p>
+    <p class="w3-text-grey"> According to Astin, utilizing the resources provided and general student involvement are more likely than other students to express satisfaction with all aspects of their institutional experience. Astin’s studies suggest that students academic performance, student friendships, and cognitive development have increased.</p>
+    <p class="w3-text-grey">Most of the research strongly supports the concept of involvement as a critical element in the learning process. Inglis suggests that the best strategy for student success is using several resources rather than just one resource heavily. Using a blend of resources could be more useful for a student. Some methodologies being used to promote use of resources include: social media, eye-catching designs, and social interaction.</p>
+    </div>
+</div>
+
+    
+<!--Footer-->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Kali Peters - GD 202 Townscend Sec 01 - Spring 2020</h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
